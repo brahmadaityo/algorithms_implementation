@@ -1,4 +1,6 @@
 #!/bin/bash
+#pass the contest no. as a argument ./contest.sh <contest_no>
+#it will create a folder with 6 cpp files and template 
 xclip -i /home/siddhartha/Desktop/CP/template.cpp;
 cd /home/siddhartha/Desktop/CP/codeforces;
 mkdir /home/siddhartha/Desktop/CP/codeforces/$* ;
